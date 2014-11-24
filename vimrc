@@ -63,3 +63,15 @@ autocmd BufReadPost * normal `""`
 
 " Map space bar as leader
 let mapleader="\<space>"
+
+" UTF-8
+scriptencoding utf-8
+set encoding=utf-8
+
+" tab stuff
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+filetype plugin on
